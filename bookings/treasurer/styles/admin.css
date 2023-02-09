@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.booking-status {
+	font-size: 36px;
+}
+
+.booking-open {
+	color: #0C0;
+}
+
+.booking-closed {
+	color: #F00;
+}
+
+.booking-willopen {
+	color: #F90;
+}
+
+.tickets-remain {
+	color: #0C0;
+	font-size: 24px;
+}
+
+.tickets-gone {
+	color: #F00;
+	font-size: 24px;
+}
+
+.open-date {
+	color: #0CF;
+}
+
+.input2 {
+	width: 20px;
+	display:inline-block;
+}

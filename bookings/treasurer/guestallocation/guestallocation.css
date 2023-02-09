@@ -1,0 +1,17 @@
+﻿.fixed-height-radio {
+  height: 10px;
+  max-height: 10px;
+}
+
+label[for] {
+  cursor: pointer;
+}
+
+input[type=radio], input[type=checkbox] {
+  cursor: pointer;
+}
+
+.control-label.col-xs-12 {
+  padding-left: 0;
+  padding-right: 0;
+}

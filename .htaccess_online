@@ -1,0 +1,25 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+<FilesMatch "logout">
+SetHandler AALogout
+</FilesMatch>
+AALogoutMsg /
+AAClockSkew 10
+
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+RewriteCond %{HTTP_HOST} pembrokejuneevent.co.uk
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.pembrokejuneevent.co.uk/$1 [R=301,L]
+RewriteRule ^brochure$ "pdf/Pembroke June Event 2014 Brochure.pdf" [NC,L,E=PDF_SAVE:1]
+RewriteRule ^home(\/?)$ "index.php?page=home&tag=$1"
+RewriteRule ^tickets(\/?)$ "index.php?page=tickets&tag=$1"
+RewriteRule ^food(\/?)$ "index.php?page=food&tag=$1"
+RewriteRule ^ents(\/?)$ "index.php?page=ents&tag=$1"
+RewriteRule ^staff(\/?)$ "index.php?page=staff&tag=$1"
+RewriteRule ^charity(\/?)$ "index.php?page=charity&tag=$1"
+RewriteRule ^sponsorship(\/?)$ "index.php?page=sponsorship&tag=$1"
+RewriteRule ^committee(\/?)$ "index.php?page=committee&tag=$1"

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.applicant {
+	font-size: 46px;
+}
+
+.success {
+	color: #0C0;
+	font-size: 46px;
+}
+
+.error {
+	color: #F00;
+	font-size: 46px;
+}
+
+.already_checked_in {
+	font-size: 24px;
+	color: #F00;
+}
+
+#barcode {
+	color: #FFF;
+	background-color: #003;
+	font-size: 32px;
+}
+
+.confirm {
+	text-align: right;
+}
+
+#checkin {
+	font-size: 28px;
+	background-color: #0C0;
+	color: #000;
+}
+
+.booking-details {
+	color: #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+

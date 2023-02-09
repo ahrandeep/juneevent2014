@@ -1,0 +1,16 @@
+Functional
+  - Cancellations/Refunds
+  - Extra Charges (if second charge added - first paid or unpaid?)
+  - Website integration (easy API for booking open/closed etc. to allow for own styling)
+  - Automatic booking changes (name changes + cancellations with charges)
+    - how to do non-raven authentication? (email hash?)
+  - Admin-only booking form (form with ALL details able to be filled in + optional email)
+  - Payment details email option
+  - Barcoding
+    - Alternate collector name
+  - Downloading data spreadsheet (customisable)
+  - Backups and rolling back
+  - Database setup
+
+Aesthetic
+  - Admin styling

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mainapplicant-selector {
+	display:none;
+}
+
+.check-all {
+	display:none;
+}
+
+.applicant-timesubmitted {
+	display:none;
+}
+
+.applicant-position {
+	display:none;
+}
+
+.applicant-donation {
+	display:none;
+}
+
+.applicant-cost {
+	display:none;
+}
+
+.applicant-payment {
+	display:none;
+}
+
+.applicant-info {
+	display:none;
+}
+
+.applicant-footer {
+	display:none;
+}
+
+.applicant-barcode {
+	display:none;
+}

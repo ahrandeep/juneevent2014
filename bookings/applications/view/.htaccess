@@ -1,0 +1,3 @@
+AddType application/octet-stream csv
+AuthType Ucam-WebAuth
+Require user asa46 pmk39 ph396 gf283 zw281 rs711

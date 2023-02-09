@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	color: #FFF;
+	width: 996px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	background-color: #000;
+	margin-top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.form-title {
+	font-size: 32px;
+}
+
+.sub-title {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+
+.error {
+	color: #F00;
+}
+
+.warning {
+	color: #F00;
+	font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: #09F;
+}
+
+a:link {
+	color: #09F;
+}
+
+a:visited {
+	color: #09F;
+}
+
+a:hover {
+	color: #0CF;
+}
+
+a.header {
+	font-size: 14px;
+}
+
+input[type=text] {
+  border-radius: 4px;
+	-moz-border-radius: 4px; -webkit-border-radius: 4px;
+	border: none;
+	background-color: #FFF;
+}
+
+
+fieldset {
+	border-color: #444;
+}
+
+
+.button {
+	border-radius: 4px;
+	-moz-border-radius: 4px; -webkit-border-radius: 4px;
+	padding:4px;
+	border:#333 2px solid;
+	background-color: #006;
+	color: #FFF;
+}
+
+.button:hover {
+	color:#0CF;
+	outline:none;
+	border:#444 2px solid;
+	box-shadow: 0 0 5px #003;
+	-webkit-box-shadow: 0 0 5px #003;
+	-moz-box-shadow: 0 0 5px #003;
+}
+
+
+.textbox {
+	color:#666;
+	font-size:12px;
+	border-radius: 8px;
+	-moz-border-radius: 8px; -webkit-border-radius: 8px;
+	margin:4px 0px 4px 0px;
+	padding:4px;
+	border:#999 1px solid;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+}
+
+.textbox:focus{
+    color:#000;
+	outline:none;
+	border:#35a5e5 1px solid;
+	border-radius: 8px;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+
+.dropdown {
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+
+#totalamount {
+	font-size: 32px;
+}
+
+/* Worker Applications */
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-limit {
+  width: 900px;
+}
+
+.workers-span-left, .workers-span-right  {
+  display: inline-block;
+  width: 85px;
+}
+
+.workers-span-left  {
+  text-align: right;
+  padding-right: 8px;
+}
+
+.workers-span-right {
+  text-align: left;
+  padding-left: 8px;
+}
+
+.application tr {
+  height: 26px;
+}
+
+.application p {
+  margin: 15px 0;
+}
+
+.field-margin {
+  margin: 15px 0;
+}
+
+
+/* Ticket browsing form */
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ticket-list {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.headers {
+	color: #CCC;
+}
+
+.main-applicant-row {
+	font-weight: bold;
+	color: #FFF;
+}
+
+.sub-applicant-row {
+	color: #CCC;
+}
+
+.main-applicant-name {
+	font-size: 16px;
+}
+
+.main-applicant-type {
+}
+
+.main-applicant-email {
+}
+
+.applicant-name {
+}
+
+.applicant-tickettype {
+}
+
+.applicant-timesubmitted {
+}
+
+.applicant-college {
+	display: none;
+}
+
+.applicant-email {
+	display: none;
+}
+
+.applicant-type {
+	display:none;
+}
+
+.applicant-diet {
+	display: none;
+}
+
+.check-all {
+	text-decoration: underline;
+	font-size: 10px;
+}
+
+
+
+.paid {
+	background-color: #0C0;
+}
+
+.unpaid {
+	background-color: #F00;
+}
+
+.extraspaid {
+	background-color: #0C0;
+}
+
+.extrasunpaid {
+	background-color: #F00;
+}
+
+.paymentnotrequired {
+	background-color: #666;
+}
+
+.paymentexempt {
+	background-color: #90F;
+}
+
+.other {
+	background-color: #F90;
+}
+
+.tickettype-field {
+  padding-top: 5px;
+}
+
+/* Guest checker */
+input.crsid {
+  color: #000!important;
+  transition: color 1s  1s ease-out;
+  -ms-transition: color 1s 1s ease-out;
+  -moz-transition: color 1s 1s ease-out;
+  -webkit-transition: color 1s 1s ease-out;
+  -o-transition: color 1s 1s ease-out;
+}
+
+span.price {
+ color: #FFF;
+ transition: color 1s  1s ease-out;
+ -ms-transition: color 1s 1s ease-out;
+ -moz-transition: color 1s 1s ease-out;
+ -webkit-transition: color 1s 1s ease-out;
+ -o-transition: color 1s 1s ease-out;
+}
+
+input.crsid.pem_member, input.crsid.pem_alumnus, span.price.pem_member, span.price.pem_alumnus {
+  color: lime!important;
+  transition: color 0.1s ease-out;
+  -ms-transition: color 0.1s ease-out;
+  -moz-transition: color 0.1s ease-out;
+  -webkit-transition: color 0.1s ease-out;
+  -o-transition: color 0.1s ease-out;
+}
+
+input.crsid.pem_guest, span.price.pem_guest {
+  color: red!important;
+  transition: color 0.1s ease-out;
+  -ms-transition: color 0.1s ease-out;
+  -moz-transition: color 0.1s ease-out;
+  -webkit-transition: color 0.1s ease-out;
+  -o-transition: color 0.1s ease-out;
+}
+
+tr.mainrow td.td-padded {
+  font-size: 15px;
+}
+
+td.td-padded {
+  padding-left: 20px;
+}
